@@ -1,0 +1,182 @@
+/* ================= DEPARTMENT HEADER ================= */
+
+.department-header {
+    background: linear-gradient(135deg, #eaf6ff, #f7fbff);
+    padding: 70px 7%;
+    text-align: center;
+}
+
+.department-header-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.department-header h1 {
+    font-size: 42px;
+    margin: 10px 0 15px;
+}
+
+.department-header p {
+    color: #5f6b75;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* ================= DEPARTMENTS SECTION ================= */
+
+.departments-section {
+    padding: 60px 7%;
+    background: #f7f9fc;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 45px;
+}
+
+.section-heading h2 {
+    font-size: 32px;
+    margin: 8px 0 12px;
+}
+
+.section-heading p {
+    color: #66727c;
+}
+
+
+/* ================= DEPARTMENT GRID ================= */
+
+.department-grid {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+/* ================= DEPARTMENT CARD ================= */
+
+.department-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+
+    border: 1px solid #e4ebf1;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.department-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+}
+
+
+/* ================= ICON ================= */
+
+.department-icon {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eaf6ff;
+    border-radius: 14px;
+
+    font-size: 32px;
+
+    margin-bottom: 20px;
+}
+
+
+/* ================= CARD CONTENT ================= */
+
+.department-content h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.department-content > p {
+    color: #68747d;
+    line-height: 1.6;
+    min-height: 75px;
+}
+
+
+/* ================= LIST ================= */
+
+.department-content ul {
+    padding-left: 20px;
+    margin: 18px 0 22px;
+}
+
+.department-content li {
+    margin-bottom: 8px;
+    color: #4f5b64;
+}
+
+
+/* ================= BUTTON ================= */
+
+.department-btn {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background: #1677b8;
+    color: white;
+
+    padding: 11px 18px;
+
+    border-radius: 7px;
+
+    font-weight: 600;
+
+    transition: background 0.3s ease;
+}
+
+.department-btn:hover {
+    background: #0f6098;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1000px) {
+
+    .department-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .department-header {
+        padding: 50px 6%;
+    }
+
+    .department-header h1 {
+        font-size: 32px;
+    }
+
+    .departments-section {
+        padding: 45px 6%;
+    }
+
+    .department-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

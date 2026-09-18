@@ -1,0 +1,244 @@
+/* ================= SCHEDULE HEADER ================= */
+
+.schedule-header {
+    background: linear-gradient(135deg, #eaf6ff, #f7fbff);
+    padding: 70px 7%;
+    text-align: center;
+}
+
+.schedule-header-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.schedule-header h1 {
+    font-size: 42px;
+    margin: 10px 0 15px;
+}
+
+.schedule-header p {
+    color: #5f6b75;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* ================= SCHEDULE SECTION ================= */
+
+.schedule-section {
+    padding: 60px 5%;
+    background: #f7f9fc;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 40px;
+}
+
+.section-heading h2 {
+    font-size: 32px;
+    margin: 8px 0 12px;
+}
+
+.section-heading p {
+    color: #66727c;
+}
+
+
+/* ================= TABLE CONTAINER ================= */
+
+.schedule-table-container {
+    width: 100%;
+    overflow-x: auto;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+
+/* ================= TABLE ================= */
+
+.schedule-table {
+    width: 100%;
+    min-width: 1050px;
+
+    border-collapse: collapse;
+}
+
+.schedule-table th {
+    background: #1677b8;
+    color: white;
+
+    padding: 16px 14px;
+
+    text-align: center;
+
+    font-size: 14px;
+}
+
+.schedule-table td {
+    padding: 17px 14px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #e6edf2;
+
+    color: #53616b;
+
+    font-size: 14px;
+}
+
+.schedule-table td:first-child {
+    text-align: left;
+    color: #263640;
+}
+
+.schedule-table tbody tr:hover {
+    background: #f4faff;
+}
+
+.schedule-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* ================= OFF DAY ================= */
+
+.schedule-table td.off {
+    color: #c0392b;
+    font-weight: 600;
+}
+
+
+/* ================= LEGEND ================= */
+
+.schedule-legend {
+    display: flex;
+    justify-content: center;
+
+    gap: 30px;
+
+    margin: 25px 0;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    color: #58656e;
+    font-size: 14px;
+}
+
+.legend-dot {
+    width: 11px;
+    height: 11px;
+
+    border-radius: 50%;
+
+    display: inline-block;
+}
+
+.available-dot {
+    background: #28a745;
+}
+
+.off-dot {
+    background: #d9534f;
+}
+
+
+/* ================= NOTE ================= */
+
+.schedule-note {
+    max-width: 900px;
+
+    margin: 35px auto 0;
+
+    padding: 22px 25px;
+
+    background: white;
+
+    border-left: 4px solid #1677b8;
+
+    border-radius: 8px;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.schedule-note h3 {
+    margin: 0 0 8px;
+
+    font-size: 19px;
+}
+
+.schedule-note p {
+    margin: 0;
+
+    color: #66727c;
+
+    line-height: 1.6;
+}
+
+
+/* ================= BUTTON ================= */
+
+.schedule-actions {
+    text-align: center;
+
+    margin-top: 35px;
+}
+
+.schedule-btn {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background: #1677b8;
+
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 7px;
+
+    font-weight: 600;
+
+    transition: background 0.3s ease;
+}
+
+.schedule-btn:hover {
+    background: #0f6098;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 700px) {
+
+    .schedule-header {
+        padding: 50px 6%;
+    }
+
+    .schedule-header h1 {
+        font-size: 32px;
+    }
+
+    .schedule-section {
+        padding: 45px 4%;
+    }
+
+    .schedule-legend {
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 10px;
+    }
+
+}

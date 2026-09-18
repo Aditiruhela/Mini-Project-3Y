@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Doctors | MediCare Central</title>
+
+    <link rel="stylesheet" href="../homepage/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION BAR ================= -->
+
+    <header class="site-header">
+        <nav class="navbar">
+
+            <a href="../homepage/index.html" class="logo">
+                MediCare <span>Central</span>
+            </a>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="../homepage/index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="../patients/patients.html">Patients</a>
+                </li>
+
+                <li>
+                    <a href="doctors.html" class="active">Doctors</a>
+                </li>
+
+                <li>
+                    <a href="../departments/departments.html">Departments</a>
+                </li>
+
+                <li>
+                    <a href="../appointments/appointments.html">Appointments</a>
+                </li>
+
+                <li>
+                    <a href="../services/services.html">Services</a>
+                </li>
+
+                <li>
+                    <a href="../pharmacy/pharmacy.html">Pharmacy</a>
+                </li>
+
+                <li>
+                    <a href="../billing/billing.html">Billing</a>
+                </li>
+
+                <li>
+                    <a href="../contact/contact.html">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= PAGE HEADER ================= -->
+
+    <section class="page-header">
+
+        <div class="page-header-content">
+
+            <p class="section-label">OUR MEDICAL TEAM</p>
+
+            <h1>Meet Our Doctors</h1>
+
+            <p>
+                Our experienced and dedicated doctors are committed
+                to providing quality healthcare and personalized care
+                to every patient.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DOCTOR SEARCH / FILTER UI ================= -->
+
+    <section class="doctor-controls">
+
+        <div class="search-box">
+
+            <label for="doctor-search">Search Doctor</label>
+
+            <input
+                type="text"
+                id="doctor-search"
+                placeholder="Enter doctor's name..."
+            >
+
+        </div>
+
+
+        <div class="filter-box">
+
+            <label for="department">Department</label>
+
+            <select id="department">
+
+                <option value="">All Departments</option>
+
+                <option value="cardiology">Cardiology</option>
+
+                <option value="neurology">Neurology</option>
+
+                <option value="orthopedics">Orthopedics</option>
+
+                <option value="pediatrics">Pediatrics</option>
+
+                <option value="dermatology">Dermatology</option>
+
+                <option value="gynecology">Gynecology</option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DOCTORS SECTION ================= -->
+
+    <main class="doctors-section">
+
+        <div class="section-heading">
+
+            <p class="section-label">SPECIALISTS</p>
+
+            <h2>Our Medical Experts</h2>
+
+            <p>
+                Choose a specialist according to your healthcare needs.
+            </p>
+
+        </div>
+
+
+        <div class="doctor-grid">
+
+
+            <!-- Doctor 1 -->
+
+            <article class="doctor-card">
+
+                <div class="doctor-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=500&q=80"
+                        alt="Dr. Rahul Sharma"
+                    >
+                </div>
+
+                <div class="doctor-info">
+
+                    <span class="doctor-status available">
+                        Available
+                    </span>
+
+                    <h3>Dr. Rahul Sharma</h3>
+
+                    <p class="specialization">
+                        Cardiologist
+                    </p>
+
+                    <p>
+                        <strong>Experience:</strong> 12 Years
+                    </p>
+
+                    <p>
+                        <strong>Qualification:</strong> MBBS, MD
+                    </p>
+
+                    <p class="rating">
+                        ★ 4.8 / 5
+                    </p>
+
+                    <div class="doctor-buttons">
+
+                        <a href="../doctor-profile/doctor-profile.html"
+                           class="btn">
+                            View Profile
+                        </a>
+
+                        <a href="../schedule/schedule.html"
+                           class="btn secondary-btn">
+                            Schedule
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Doctor 2 -->
+
+            <article class="doctor-card">
+
+                <div class="doctor-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=500&q=80"
+                        alt="Dr. Priya Singh"
+                    >
+                </div>
+
+                <div class="doctor-info">
+
+                    <span class="doctor-status available">
+                        Available
+                    </span>
+
+                    <h3>Dr. Priya Singh</h3>
+
+                    <p class="specialization">
+                        Neurologist
+                    </p>
+
+                    <p>
+                        <strong>Experience:</strong> 9 Years
+                    </p>
+
+                    <p>
+                        <strong>Qualification:</strong> MBBS, DM
+                    </p>
+
+                    <p class="rating">
+                        ★ 4.9 / 5
+                    </p>
+
+                    <div class="doctor-buttons">
+
+                        <a href="../doctor-profile/doctor-profile.html"
+                           class="btn">
+                            View Profile
+                        </a>
+
+                        <a href="../schedule/schedule.html"
+                           class="btn secondary-btn">
+                            Schedule
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Doctor 3 -->
+
+            <article class="doctor-card">
+
+                <div class="doctor-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1618498082410-b4aa22193b38?auto=format&fit=crop&w=500&q=80"
+                        alt="Dr. Amit Verma"
+                    >
+                </div>
+
+                <div class="doctor-info">
+
+                    <span class="doctor-status available">
+                        Available
+                    </span>
+
+                    <h3>Dr. Amit Verma</h3>
+
+                    <p class="specialization">
+                        Orthopedic Specialist
+                    </p>
+
+                    <p>
+                        <strong>Experience:</strong> 10 Years
+                    </p>
+
+                    <p>
+                        <strong>Qualification:</strong> MBBS, MS
+                    </p>
+
+                    <p class="rating">
+                        ★ 4.7 / 5
+                    </p>
+
+                    <div class="doctor-buttons">
+
+                        <a href="../doctor-profile/doctor-profile.html"
+                           class="btn">
+                            View Profile
+                        </a>
+
+                        <a href="../schedule/schedule.html"
+                           class="btn secondary-btn">
+                            Schedule
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Doctor 4 -->
+
+            <article class="doctor-card">
+
+                <div class="doctor-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?auto=format&fit=crop&w=500&q=80"
+                        alt="Dr. Neha Gupta"
+                    >
+                </div>
+
+                <div class="doctor-info">
+
+                    <span class="doctor-status busy">
+                        On Leave
+                    </span>
+
+                    <h3>Dr. Neha Gupta</h3>
+
+                    <p class="specialization">
+                        Pediatrician
+                    </p>
+
+                    <p>
+                        <strong>Experience:</strong> 8 Years
+                    </p>
+
+                    <p>
+                        <strong>Qualification:</strong> MBBS, MD
+                    </p>
+
+                    <p class="rating">
+                        ★ 4.8 / 5
+                    </p>
+
+                    <div class="doctor-buttons">
+
+                        <a href="../doctor-profile/doctor-profile.html"
+                           class="btn">
+                            View Profile
+                        </a>
+
+                        <a href="../schedule/schedule.html"
+                           class="btn secondary-btn">
+                            Schedule
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Doctor 5 -->
+
+            <article class="doctor-card">
+
+                <div class="doctor-image">
+                    <img
+                       src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=500&q=80"
+                       alt="Dr. Anjali Mehta"
+                    >
+                </div>
+
+                <div class="doctor-info">
+
+                    <span class="doctor-status available">
+                        Available
+                    </span>
+
+                    <h3>Dr. Anjali Mehta</h3>
+
+                    <p class="specialization">
+                        Dermatologist
+                    </p>
+
+                    <p>
+                        <strong>Experience:</strong> 7 Years
+                    </p>
+
+                    <p>
+                        <strong>Qualification:</strong> MBBS, MD
+                    </p>
+
+                    <p class="rating">
+                        ★ 4.6 / 5
+                    </p>
+
+                    <div class="doctor-buttons">
+
+                        <a href="../doctor-profile/doctor-profile.html"
+                           class="btn">
+                            View Profile
+                        </a>
+
+                        <a href="../schedule/schedule.html"
+                           class="btn secondary-btn">
+                            Schedule
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Doctor 6 -->
+
+            <article class="doctor-card">
+
+                <div class="doctor-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=500&q=80"
+                        alt="Dr. Kavita Rao"
+                    >
+                </div>
+
+                <div class="doctor-info">
+
+                    <span class="doctor-status available">
+                        Available
+                    </span>
+
+                    <h3>Dr. Kavita Rao</h3>
+
+                    <p class="specialization">
+                        Gynecologist
+                    </p>
+
+                    <p>
+                        <strong>Experience:</strong> 11 Years
+                    </p>
+
+                    <p>
+                        <strong>Qualification:</strong> MBBS, MD
+                    </p>
+
+                    <p class="rating">
+                        ★ 4.9 / 5
+                    </p>
+
+                    <div class="doctor-buttons">
+
+                        <a href="../doctor-profile/doctor-profile.html"
+                           class="btn">
+                            View Profile
+                        </a>
+
+                        <a href="../schedule/schedule.html"
+                           class="btn secondary-btn">
+                            Schedule
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <div>
+                <h3>MediCare Central</h3>
+
+                <p>
+                    Providing trusted healthcare services
+                    with compassion and excellence.
+                </p>
+            </div>
+
+            <div>
+                <h4>Doctor Services</h4>
+
+                <p>
+                    Expert Consultation
+                </p>
+
+                <p>
+                    Doctor Appointments
+                </p>
+
+                <p>
+                    Medical Specialists
+                </p>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+
+                <p>📞 +91 98765 43210</p>
+
+                <p>✉️ care@medicarecentral.com</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 MediCare Central. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
